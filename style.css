@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141d2f;
+  color: white;
+  font-family: "Space Mono", monospace;
+}
+
+.search {
+  height: 69px;
+  width: 730px;
+  background-color: #1e2a47;
+  border-radius: 15px;
+  position: relative;
+  padding: 10px;
+}
+
+input {
+  height: 49px;
+  width: 710px;
+  background-color: #1e2a47;
+  border-radius: 15px;
+  border: none;
+  padding-left: 80px;
+  color: white;
+  font-size: 18px;
+}
+
+.search > span {
+  font-size: 50px;
+  color: #0079ff;
+  position: absolute;
+  left: 34px;
+}
+
+button {
+  position: absolute;
+  width: 106px;
+  height: 50px;
+  color: white;
+  background-color: #60abff;
+  border-radius: 10px;
+  font-weight: bold;
+  right: 10px;
+  cursor: pointer;
+}
+
+.profile {
+  width: 730px;
+  height: 419px;
+  border-radius: 15px;
+  background-color: #1e2a47;
+  margin-top: 24px;
+  padding: 47px;
+}
+
+.avatar {
+  display: flex;
+}
+
+#img {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+}
+
+.name {
+  width: 480px;
+  margin-left: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile > p {
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.following {
+  width: 480px;
+  height: 85px;
+  border-radius: 10px;
+  background-color: #141d2f;
+  margin-left: 150px;
+  margin-top: 30px;
+  padding: 23px;
+}
+
+.following > span {
+  margin-right: 55px;
+}
+
+.following > div > span {
+  width: 100px;
+  margin-right: 35px;
+  display: inline-block;
+}
+
+.info {
+  margin-left: 150px;
+  display: flex;
+  width: 480px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.info > h4 {
+  width: 240px;
+  margin-bottom: 17px;
+}
+
+.info > h4 > a {
+  color: white;
+}
